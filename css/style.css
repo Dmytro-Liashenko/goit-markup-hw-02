@@ -2,6 +2,7 @@ body{
     font-family: "Roboto", sans-serif;
     list-style: none;
     background-color:#FFFFFF;
+    color: #434455
 }
 a{
     text-decoration: none;
@@ -18,13 +19,14 @@ ul li{
     font-family: "Raleway", sans-serif;
     font-weight: 700;
         font-size: 18px;
-        line-height: 1.16667;
+        line-height: 1.7;
             letter-spacing: 0.03em;
             text-transform: uppercase;
-            color:#2E2F42
+            
+            color: #4D5AE5
 }
-.header-logo .logo-header{
-    color:#4D5AE5
+.logo-header{
+    color: #2E2F42
 
 }
 
@@ -40,6 +42,9 @@ ul li{
 .header-list-item:hover{
    color:#404BBF
 }
+.header-list-item:focus{
+    color: #404bbf
+}
 
 .header-address {}
 
@@ -49,9 +54,14 @@ ul li{
         line-height: 1.5;
         letter-spacing: 0.02em;
         color:#434455;
+        font-style: normal;
 }
 .header-address-list li a:hover{
     color:#404BBF;
+}
+
+.header-address-list li a:focus {
+    color: #404BBF;
 }
 
 .header-address-list-email {}
@@ -69,13 +79,14 @@ ul li{
 .hero-banner-text {
     font-weight: 700;
         font-size: 56px;
-        line-height: 1.07143;
+        line-height: 1.07;
         letter-spacing: 0.02em;
         text-align: center;
         color: #FFFFFF;
 }
 
 .hero-baner-button {
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
@@ -89,6 +100,11 @@ ul li{
     background-color: #404BBF;
 
 }
+
+ .hero-baner-button:focus {
+     background-color: #404BBF;
+
+ }
 /* benefits section */
 .benefits {}
 
@@ -112,18 +128,19 @@ ul li{
         color: #434455;
 }
 /* our team section */
-.team {}
+.team {background-color: #F4F4FD}
 
 .team-head {
     font-weight: 700;
         font-size: 36px;
-        line-height: 1.11111;
+        line-height: 1.11;
         letter-spacing: 0.02em;
         text-align: center;
         color:#2E2F42;
+        text-transform: capitalize
 }
 
-.team-list {}
+.team-list {background-color: #FFFFFF}
 
 .team-list-item {}
 
@@ -148,10 +165,11 @@ ul li{
 .porfolio-head {
     font-weight: 700;
         font-size: 36px;
-        line-height: 1.11111;
+        line-height: 1.11;
         letter-spacing: 0.02em;
         text-align: center;
         color: #2E2F42;
+        text-transform: capitalize
 }
 
 .porfolio-list {}
@@ -178,15 +196,17 @@ ul li{
     background-color: #2E2F42;
 }
 .footer-logo {
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
         font-size: 18px;
-        line-height: 1.16667;
+        line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        color: #F4F4FD;
+        color: 
+        #4d5ae5
 }
 .footer-logo .logo-header{
-   color: #4D5AE5
+    color: #f4f4fd
 }
 .footer-text {
     font-weight: 400;
